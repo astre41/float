@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+
+body {
+    line-height: 2;
+    background: url(../images/back.jpg);
+}
+
+main {
+    width: 1315px;
+    margin: 10px auto 10px auto;
+    background-color: rgba( 255, 255, 255, 0.95);
+
+}
+
+h1 {
+    height: 102px;
+    text-align: center;
+}
+
+h2 {
+    width: 250px;
+    font-size: 20px;
+    background: #bd0018;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+nav ul li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+nav {
+    width: 1024px;
+    height: 50px;
+    margin: auto;
+}
+
+nav ul {
+    margin-left: 3px;
+}
+
+
+nav ul li {
+    float: left;
+    width: 202px;
+    height: 50px;
+    background: #6676b2;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Cookie', cursive;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-family: 'Fascinate', cursive;
+    border: #fff 1px solid;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li:nth-child(even) {
+    background-color: #bd0018;
+}
+
+nav ul li:nth-child(3) {
+    background-color: #0c1439;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba( 255, 255, 255, 0.55);
+}
+
+nav a:active {
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+}
+
+figure {
+    margin-top: 15px;
+    text-align: center;
+    clear: both;
+}
+
+article {
+    width: 1024px;
+    height: 250px;
+    margin: auto;
+    padding: 15px 0px 20px 0px;
+
+}
+
+
+.container {
+    width: 1088px;
+    margin-left: 146px;
+}
+
+.container li {
+    float: left;
+    margin-right: 62px;
+    list-style: none;
+}
+
+.container2 {
+    width: 1076px;
+    margin-left: 146px;
+}
+
+.container2 li {
+    float: left;
+    margin: 50px 52px 20px 0px;
+    list-style: none;
+}
+
+.container3 {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+}
+
+
+footer {
+    clear: both;
+    width: 1024px;
+    height: 90px;
+    margin: auto;
+    font-size: 10px;
+    font-style: italic;
+}
+
+hr {
+    border: #bbb 1px dotted;
+}
+
+a:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+}
+
+section {
+    margin: 20px 0px 30px 0px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+}
+
+.icon {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+footer li {
+    float: left;
+    margin-right: 5px;
+    list-style: none;
+}
